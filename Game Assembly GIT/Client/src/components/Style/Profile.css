@@ -1,0 +1,43 @@
+.profileContainer {
+  max-width: 450px;
+  margin: 60px auto;
+  padding: 28px;
+  border-radius: 14px;
+  background-color: #1c2541;
+  text-align: center;
+  color: #d0dfff;
+  box-shadow: 0 6px 16px rgba(74, 168, 255, 0.2);
+}
+
+.profileContainer h1 {
+  margin-bottom: 20px;
+  font-size: 26px;
+  color: #4aa8ff;
+}
+
+.profileDetails {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.profileDetails p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #b0c4ff;
+}
+
+.logoutButton {
+  padding: 12px 20px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logoutButton:hover {
+  background-color: #ff1a1a;
+}
